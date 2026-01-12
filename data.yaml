@@ -1,0 +1,13 @@
+# train: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/train/images
+# val: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/valid/images
+# test: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/test/images
+
+# nc: 2
+# names: ['Saffron_Top', 'Saffron_Side']
+
+
+train: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/Dmy_Dataset/train/images
+val: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/Dmy_Dataset/train/images
+
+nc: 1
+names: ['Saffron_Top']

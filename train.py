@@ -3,13 +3,13 @@ from ultralytics import YOLO
 
 def main():
     # ===================== CONFIG =====================
-    MODEL_WEIGHTS = "yolov12s.pt"   # or yolov12m.pt
+    MODEL_WEIGHTS = "Weight/yolo12x.pt"   # or yolov12m.pt
     DATA_YAML = "data.yaml"
 
-    IMG_SIZE = 1024          # IMPORTANT for small buds
+    IMG_SIZE = 640          # IMPORTANT for small buds
     EPOCHS = 200
     BATCH = 8                # adjust based on GPU
-    DEVICE = 0               # 0 = GPU, 'cpu' if no GPU
+    DEVICE = 'cpu'               # 0 = GPU, 'cpu' if no GPU
 
     PROJECT = "tea_plucking"
     NAME = "yolov12_bud_leaf"

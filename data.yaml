@@ -1,13 +1,6 @@
-# train: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/train/images
-# val: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/valid/images
-# test: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/test/images
+train: E:/Project_Work/TULIP/Tulip Sample Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/dataset_split/train/images
+val: E:/Project_Work/TULIP/Tulip Sample Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/dataset_split/valid/images
+test: E:/Project_Work/TULIP/Tulip Sample Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/dataset_split/test/images
 
-# nc: 2
-# names: ['Saffron_Top', 'Saffron_Side']
-
-
-train: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/Dmy_Dataset/train/images
-val: E:/Project_Work/2025/Saffron_Project/Github_Code/Saffron_Detection/YoloV8/Dmy_Dataset/train/images
-
-nc: 1
-names: ['Saffron_Top']
+nc: 2
+names: ['Tea_Bud_Top', 'Tea_Bud_Side']

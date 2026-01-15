@@ -138,7 +138,7 @@ import cv2
 from ultralytics import YOLO
 
 
-def detect_image(frame, model, boxes_list, centers_list, conf_thres=0.3):
+def detect_image(frame, model, boxes_list, centers_list, conf_thres=0.1):
     results = model(frame, verbose=False)
 
     boxes_list.clear()
@@ -160,7 +160,8 @@ def detect_image(frame, model, boxes_list, centers_list, conf_thres=0.3):
 
 def main():
     # ================= CONFIG =================
-    INPUT_DIR = "E:/Project_Work/TULIP/Tulip_Sample_Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/dataset_split/test/images"
+    INPUT_DIR = "E:/Project_Work/TULIP/Tulip_Sample_Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/dataset_split/demo"
+    # INPUT_DIR = "E:/Project_Work/TULIP/2025_Field_Visit/Nov_2025_Field_Visit/Gopro_Data"
     OUTPUT_DIR = "output_images"
     MODEL_PATH = "E:/Project_Work/TULIP/Tulip_Sample_Code/2026/Image_Processing/Tea_Leaf_Detection_Using_Yolov12/Result/detect/Tulip/weights/best.pt"
 

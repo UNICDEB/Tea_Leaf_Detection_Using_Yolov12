@@ -1,7 +1,7 @@
 def build_xyz_points(flat_list):
-    """
-    Convert flat list [x,y,z,x,y,z,...] into [(x,y,z), ...]
-    """
+
+    # Convert flat list [x,y,z,x,y,z,...] into [(x,y,z), ...]
+
     if len(flat_list) % 3 != 0:
         raise ValueError("Input list length must be multiple of 3")
 
@@ -43,7 +43,6 @@ def filter_and_store(points):
     return result
 
 
-# ===================== INPUT =====================
 
 input_points = [
     50, 80, 200,
@@ -53,9 +52,6 @@ input_points = [
     40, 60, 290
 ]
 
-
-
-# ===================== PIPELINE ==================
 
 xyz_points = build_xyz_points(input_points)
 output = filter_and_store(xyz_points)
